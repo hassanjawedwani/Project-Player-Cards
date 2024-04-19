@@ -11,23 +11,23 @@
         <h1>Team Stats</h1>
         <main>
             <div id="stats">
-                <p>Team:</p>
-                <p>Sport:</p>
-                <p>Year:</p>
-                <p>Head coach:</p>
+                <p>Team: <span id="team"></span></p>
+                <p>Sport: <span id="sport"></span></p>
+                <p>Year: <span id="year"></span></p>
+                <p>Head coach: <span id="coach-name"></span></p>
             </div>
             <label for="filter-selector">Filter Teammates:
                 <select id="filter-selector">
-                    <option>All Player</option>
-                    <option>Nicknames</option>
-                    <option>Position Forward</option>
-                    <option>Position Midfielder</option>
-                    <option>Position Defender</option>
-                    <option>Position Goalkeeper</option>
+                    <option value="all">All Player</option>
+                    <option value="nickname">Nicknames</option>
+                    <option value="forward">Position Forward</option>
+                    <option value="midfielder">Position Midfielder</option>
+                    <option value="defender">Position Defender</option>
+                    <option value="goalkeeper">Position Goalkeeper</option>
                 </select>
             </label>
             <div class="cards">
-                <div class="card">
+                <!-- <div class="card">
                     <h2>Sergio Almirón</h2>
                     <p>Position: forward</p>
                     <p>Number: 1</p>
@@ -158,11 +158,12 @@
                     <p>Position: goalkeeper</p>
                     <p>Number: 22</p>
                     <p>Nickname: N/A</p>
-                </div>
+                </div> -->
             </div>
         </main>
         
     </div>
     <footer>@freecodecamp</footer>
+    <script src="script.js"></script>
 </body>
 </html>
